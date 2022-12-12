@@ -12,8 +12,8 @@
 
 | Day | Puzzle 1 | Puzzle 2 | Notes |
 |:---:|:--------:|:--------:|:----- |
-| 1 | X | X | Sum numbers, use vector sorting to find max 1 and max 3 |
-| 2 | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
+| [1](src/solutions/day1/README.md) | X | X | Sum numbers, use vector sorting to find max 1 and max 3 |
+| [2](src/solutions/day2/README.md) | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
 | 3 |  |  |  |
 | 4 |  |  |  |
 | 5 |  |  |  |
