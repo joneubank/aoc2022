@@ -71,3 +71,7 @@ Went overboard with structs and summarizing the game because I was curious about
 I think it is nice how structured the code ends up, each function is quite simple and focused, but this was definitely not an expedient solution.
 
 There is a cleaner way to determine the results without doing the exhaustive case check of every outcome combination - You can implement a ruleset for each throw to indicate what happens for each opposing throw (win loss or draw), then use this as a lookup. This would remove the 9 case match statement. Since its already written though it's not worth the effort to rebuild into a generic that could handle additional throws.
+
+### strum and strum_macros
+
+Added external crate to provide additional enum tools. For this puzzle I defined the expected code values (A/B/C and X/Y/Z) as enums, and the strum libraries provided a converter to parse strings into enum values.
