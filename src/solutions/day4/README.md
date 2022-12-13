@@ -3,7 +3,13 @@
 ## Output
 
 ```
+Day 4
 
+Question 1
+Count: 305
+
+Question 2
+Count: 811
 ```
 
 ## Puzzle Text
