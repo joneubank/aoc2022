@@ -14,7 +14,7 @@
 |:---:|:--------:|:--------:|:----- |
 | [1](src/solutions/day1/README.md) | X | X | Sum numbers, use vector sorting to find max 1 and max 3 |
 | [2](src/solutions/day2/README.md) | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
-| 3 |  |  |  |
+| [3](src/solutions/day3/README.md) | X | X | Use sets to find characters repeated in multiple strings |
 | 4 |  |  |  |
 | 5 |  |  |  |
 | 6 |  |  |  |
@@ -42,7 +42,7 @@
 
 `cargo run`
 
-The application runs as a standard Rust crate. Usually the [`main.rs`](src/main.rs) file is setup to only run the problem currently being worked on. To run a solution for any given day, update the code in the main file to call `run` on the day in question. Example for running day 2:
+The application runs as a standard Rust crate. Usually the [`main.rs`](src/main.rs) file is setup to only run the solution currently being worked on. To run a solution for any given day, update the code in the main file to call `run` on the day in question. Example for running day 2:
 
 ```
 fn main() {
