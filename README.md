@@ -55,3 +55,22 @@ For convenience, I will probably leave statements to run each given day in the m
 ### Note about Dead Code
 
 Because I am not referencing the solutions for most days, the `run` functions for each day will be annotated with `#[allow(dead_code)]` to hide all the compile warnings.
+
+
+## Solution Template
+
+A solution template folder is created at `./src/solutions/template` . This contains a `mod.rs` file with stubbed functions for running the solution, reading the input data, and calculating solutions to both parts of the puzzle.
+
+To prepare a new solution:
+
+1. copy the template folder into the `./src/solutions` dir
+1. rename the new folder for your new day ex. `./src/solutions/day100`
+2. add the new module declaration to the [`./src/solutions/mod.rs`](./src/solutions/mod.rs) file. ex. `pub mod day100`
+
+You can now run the new solution by calling its run function from the main function in [`./src/main.rs`](./src/main.rs):
+
+```
+fn main() {
+	solutions::day100::run();
+}
+```
