@@ -58,7 +58,7 @@ fn read_data() -> Vec<(Range, Range)> {
 	let input_text = read_lines("./src/solutions/day4/input.txt");
 	if let Ok(lines) = input_text {
 		lines.for_each(|line| {
-			let text = line.unwrap_or_else(|error| panic!("{error}"));
+			let text = line.unwrap();
 			output.push(text);
 		})
 	}
@@ -74,6 +74,7 @@ fn q1(data: &Vec<(Range, Range)>) {
 		.iter()
 		.filter(|pair| pair.0.contains_range(&pair.1) || pair.1.contains_range(&pair.0))
 		.count();
+
 	println!("Count: {count}");
 }
 

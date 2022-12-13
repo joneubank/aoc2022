@@ -15,7 +15,7 @@ fn read_data() -> Vec<String> {
 	let input_text = read_lines("./src/solutions/template/input.txt");
 	if let Ok(lines) = input_text {
 		lines.for_each(|line| {
-			let text = line.unwrap_or_else(|error| panic!("{error}"));
+			let text = line.unwrap();
 			output.push(text);
 		})
 	}
