@@ -72,28 +72,17 @@ fn read_data() -> Vec<(Range, Range)> {
 fn q1(data: &Vec<(Range, Range)>) {
 	println!("\nQuestion 1");
 
-	let mut count = 0;
-
-	data.iter().for_each(|pair| {
-		if pair.0.contains_range(&pair.1) || pair.1.contains_range(&pair.0) {
-			count += 1;
-		}
-	});
+	let count = data
+		.iter()
+		.filter(|pair| pair.0.contains_range(&pair.1) || pair.1.contains_range(&pair.0))
+		.count();
 	println!("Count: {count}");
 }
 
 fn q2(data: &Vec<(Range, Range)>) {
 	println!("\nQuestion 2");
 
-	let mut count = 0;
+	let count = data.iter().filter(|pair| pair.0.overlaps(&pair.1)).count();
 
-	data.iter().for_each(|pair| {
-		let a = &pair.0;
-		let b = &pair.1;
-
-		if a.overlaps(b) {
-			count += 1;
-		}
-	});
 	println!("Count: {count}");
 }
