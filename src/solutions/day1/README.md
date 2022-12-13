@@ -11,7 +11,7 @@ Question 2
 Calories from top 3 elves: 200044
 ```
 
-## Problem Text
+## Puzzle Text
 > --- Day 1: Calorie Counting ---
 > 
 > The jungle must be too overgrown and difficult to navigate in vehicles or access from the air; the Elves' expedition traditionally goes on foot. As your boats approach land, the Elves begin taking inventory of their supplies. One important consideration is food - in particular, the number of Calories each Elf is carrying (your puzzle input).
