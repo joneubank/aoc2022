@@ -16,6 +16,7 @@ struct Range {
 }
 
 impl Range {
+	#[allow(dead_code)] // Unused in this problem after refactor
 	fn contains_value(&self, value: u32) -> bool {
 		value >= self.min && value <= self.max
 	}
@@ -25,10 +26,7 @@ impl Range {
 	}
 
 	fn overlaps(&self, other: &Range) -> bool {
-		self.contains_value(other.min)
-			|| self.contains_value(other.max)
-			|| other.contains_value(self.min)
-			|| other.contains_value(self.max)
+		self.min <= other.max && self.max >= other.min
 	}
 }
 
