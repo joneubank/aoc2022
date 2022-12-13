@@ -15,7 +15,7 @@
 | [1](src/solutions/day1/README.md) | X | X | Sum numbers, use vector sorting to find max 1 and max 3 |
 | [2](src/solutions/day2/README.md) | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
 | [3](src/solutions/day3/README.md) | X | X | Use sets to find characters repeated in multiple strings |
-| 4 |  |  |  |
+| [4](src/solutions/day4/README.md) | X | X | String parsing into ranges, checking overlaps |
 | 5 |  |  |  |
 | 6 |  |  |  |
 | 7 |  |  |  |
