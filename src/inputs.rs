@@ -9,6 +9,6 @@ where
 	P: AsRef<Path>,
 {
 	let file_result = File::open(filename);
-	let file = file_result.unwrap_or_else(|error| panic!("{error}"));
+	let file = file_result.unwrap();
 	return Ok(io::BufReader::new(file).lines());
 }
