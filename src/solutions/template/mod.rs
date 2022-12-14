@@ -12,13 +12,13 @@ pub fn run() {
 
 fn read_data() -> Vec<String> {
 	let mut output: Vec<String> = Vec::new();
-	let input_text = read_lines("./src/solutions/template/input.txt");
-	if let Ok(lines) = input_text {
-		lines.for_each(|line| {
-			let text = line.unwrap();
-			output.push(text);
-		})
-	}
+	let lines = read_lines("./src/solutions/template/input.txt").expect("Input must exist");
+
+	lines.for_each(|line| {
+		let text = line.unwrap();
+		output.push(text);
+	});
+
 	return output;
 }
 

@@ -8,7 +8,7 @@
 
 ## Progress Summary
 
-**Total Score:** 4
+**Total Score:** 12
 
 | Day | Puzzle 1 | Puzzle 2 | Notes |
 |:---:|:--------:|:--------:|:----- |
@@ -16,8 +16,8 @@
 | [2](src/solutions/day2/README.md) | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
 | [3](src/solutions/day3/README.md) | X | X | Use sets to find characters repeated in multiple strings |
 | [4](src/solutions/day4/README.md) | X | X | String parsing into ranges, checking overlaps |
-| 5 |  |  |  |
-| 6 |  |  |  |
+| [5](src/solutions/day5/README.md) | X | X | Vector manipulation, popping and pushing |
+| [6](src/solutions/day6/README.md) | X | X | Find first unique characters sequence of length N in string |
 | 7 |  |  |  |
 | 8 |  |  |  |
 | 9 |  |  |  |
