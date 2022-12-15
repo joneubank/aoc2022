@@ -14,12 +14,12 @@
 
 | Day | Puzzle 1 | Puzzle 2 | Notes |
 |:---:|:--------:|:--------:|:----- |
-| [1](src/solutions/day1/README.md) | X | X | Sum numbers, use vector sorting to find max 1 and max 3 |
-| [2](src/solutions/day2/README.md) | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
-| [3](src/solutions/day3/README.md) | X | X | Use sets to find characters repeated in multiple strings |
-| [4](src/solutions/day4/README.md) | X | X | String parsing into ranges, checking overlaps |
-| [5](src/solutions/day5/README.md) | X | X | Vector manipulation, popping and pushing |
-| [6](src/solutions/day6/README.md) | X | X | Find first unique characters sequence of length N in string |
+| [1](src/solutions/day1/) | X | X | Sum numbers, use vector sorting to find max 1 and max 3 |
+| [2](src/solutions/day2/) | X | X | Split lines on whitespace, convert values to Rock/Paper/Scissor throws and outcomes then count points |
+| [3](src/solutions/day3/) | X | X | Use sets to find characters repeated in multiple strings |
+| [4](src/solutions/day4/) | X | X | String parsing into ranges, checking overlaps |
+| [5](src/solutions/day5/) | X | X | Vector manipulation, popping and pushing |
+| [6](src/solutions/day6/) | X | X | Find first unique characters sequence of length N in string |
 | 7 |  |  |  |
 | 8 |  |  |  |
 | 9 |  |  |  |
